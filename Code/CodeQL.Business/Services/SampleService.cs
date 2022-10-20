@@ -37,7 +37,7 @@ namespace CodeQL.Business.Services
         }
         public Sample GetById(int id)
         {
-            return _SampleRepository.GetById(id);
+            return _SampleRepository.GetById(1);
         }
 
         public string GetString()
