@@ -39,5 +39,10 @@ namespace CodeQL.Business.Services
         {
             return _SampleRepository.GetById(id);
         }
+
+        public string GetString()
+        {
+            return "Hello";
+        }
     }
 }

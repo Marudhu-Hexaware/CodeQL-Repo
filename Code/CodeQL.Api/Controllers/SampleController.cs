@@ -47,5 +47,11 @@ namespace CodeQL.Api.Controllers
             return Ok(_SampleService.GetById(id));
         }
 
+        [HttpGet]
+        public ActionResult<string> GetString()
+        {
+            return Ok(_SampleService.GetString());   
+        }
+
     }
 }

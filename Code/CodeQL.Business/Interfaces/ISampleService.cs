@@ -12,6 +12,7 @@ namespace CodeQL.Business.Interfaces
         Sample Update(Sample classification);
         bool Delete(int id);
         Sample  GetById(int id);
+        string GetString();
 
     }
 }
